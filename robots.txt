@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://seul-pace.github.io/al-folio/sitemap.xml
