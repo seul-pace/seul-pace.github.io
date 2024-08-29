@@ -20,7 +20,6 @@ const loadHTML = async (url, elementId) => {
 document.addEventListener("DOMContentLoaded", () => {
   loadMeta("common/html/meta.html");
 
-  loadHTML("common/html/script.html", "script");
   loadHTML("common/html/header.html", "header");
   loadHTML("common/html/footer.html", "footer");
 });
