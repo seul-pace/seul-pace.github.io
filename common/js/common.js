@@ -8,6 +8,7 @@ const loadMeta = async (url) => {
   doc.head.childNodes.forEach(node => {
     head.appendChild(node.cloneNode(true));
   });
+  document.body.style.display = 'block';
 };
 
 const loadHTML = async (url, elementId) => {
