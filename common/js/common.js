@@ -18,8 +18,8 @@ const loadHTML = async (url, elementId) => {
 
 // 페이지 로드 시 메타 정보 로드
 document.addEventListener("DOMContentLoaded", () => {
-  loadMeta("common/html/meta.html");
+  loadMeta("/common/html/meta.html");
 
-  loadHTML("common/html/header.html", "header");
-  loadHTML("common/html/footer.html", "footer");
+  loadHTML("/common/html/header.html", "header");
+  loadHTML("/common/html/footer.html", "footer");
 });
